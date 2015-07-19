@@ -49,12 +49,12 @@ angular.module('mapTest', ['ionic', 'angular-mapbox', 'mapTest.controllers', 'ma
     }
   })
 
-  .state('tab.chats', {
-      url: '/chats',
+  .state('tab.map2', {
+      url: '/map2',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
+        'tab-map2': {
+          templateUrl: 'templates/tab-map2.html',
+          controller: 'map2Ctrl'
         }
       }
     })
